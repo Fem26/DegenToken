@@ -10,14 +10,14 @@ contract DegenToken {
 
     constructor() {
         owner = msg.sender;
-        name = "Farm Topia";
-        symbol = "FRT";
+        name = "FarmTopia";
+        symbol = "FMT";
         decimals = 10;
         totalSupply = 0;
-        storeNftAccessory(0, "Shovel", 50);
-        storeNftAccessory(1, "Golden Shovel", 100);
-        storeNftAccessory(2, "Diamond Shovel", 200);
-        storeNftAccessory(3, "Platinum Sword", 250);
+        storeNftAccessory(0, "Gold Shovel", 20);
+        storeNftAccessory(1, "Diamond Shovel", 50);
+        storeNftAccessory(2, "Ruby Shovel", 100);
+        storeNftAccessory(3, "Plat Shovel", 150);
     }
 
     modifier ownerOnly() {
